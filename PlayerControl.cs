@@ -21,7 +21,7 @@ void King()
     randomNumber = RandomRange(randomMinNumber, randomMaxNumber);
 
 
-    if (randomNumber => 8)
+    if (randomNumber >= 8)
     {
         Debug.Log("Lauri is a KING!");
         winGame = true;

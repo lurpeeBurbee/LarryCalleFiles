@@ -8,7 +8,7 @@ int randomNumber;
 
 void Update()
 {
-    if(Input.GetKey(KeyCode.Space))
+    if(Input.GetKeyDown(KeyCode.Space))
     {
         King();
     }

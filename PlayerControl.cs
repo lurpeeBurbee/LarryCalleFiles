@@ -1,6 +1,6 @@
 string lauri;
 string king;
-bool winGame;
+bool winGame = false;
 
 void King()
 {
